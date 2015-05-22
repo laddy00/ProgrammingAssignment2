@@ -5,6 +5,7 @@
 # makeCacheMatrix takes a matrix and creates a special "matrix" object that can cache its inverse
 # cacheSolve calculates matrix inverse if not already cached. if already cached, returns cached value
 
+
 makeCacheMatrix <- function(x = matrix()) {
         m <- NULL
         set <- function(y) {                  #sets the matrix
